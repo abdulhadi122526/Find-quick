@@ -8,12 +8,13 @@ signUp.addEventListener('click', (e)=>{
     let emailValue = email.value
     let passValue = password.value
     let repassValue = rePass.value
+     
     localStorage.setItem('email', emailValue )
     localStorage.setItem('password', passValue )
     localStorage.setItem('repassword', repassValue )
 
     if(localStorage.getItem('repassword') != localStorage.getItem('password')){
-        alert('Your retype password is not same as your password')
+        alert('confirm password is not same as your password')
     } else  if(emailValue && passValue && repassValue ){
         window.location.href = '../../index.html'
         
@@ -23,6 +24,13 @@ signUp.addEventListener('click', (e)=>{
     } 
         
 })
+
+
+
+
+
+
+
 
 
 

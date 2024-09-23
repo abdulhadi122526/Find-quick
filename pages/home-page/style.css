@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar-nav{
+    right: 30px;
+    gap: 10px;
+}
+.sec1{
+    background-image: url(img/home-page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.home-page-input select{
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;  
+}
+input[type="text"]:focus, select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+}
+#sec2card{
+    margin-top: 50px;
+}
+.card{
+    width: 250px !important;
+    
+}
+.card:hover{
+    border: 1px solid #1b9049;
+    transform: skew(1.1 );
+    
+}
+.card:hover img{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+#plumberimg, #haimg, #acimg, #crimg, #buildingimg, #beautyimg, #bikeimg, #artimg,#busimg, #carimg, #cctvimg, #cleaningimg, #coockingimg, #digitelimg, #electronicimg,#eventimg,#welderimg{
+    height: 170px;
+    width: 170px;
+    background-color: #FAFAFA;
+    
+}
+li{
+    padding-bottom:11.5px ;
+}
+a{
+    text-decoration: none !important;
+}

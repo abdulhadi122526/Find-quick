@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Quick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-white rounded-1">
+      <div class="container-fluid bg-white z-1 mt-5 pt-3  border border-1 position-fixed">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo" class="d-inline-block align-text-top" width="190vw">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse position-relative bg-white" id="navbarNav">
+          <ul class="navbar-nav position-absolute  ps-5 bg-white">
+            <li class="nav-item">
+              <a class="nav-link active text-black fw-semibold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="../../index.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+
+    <div class="sec1 border border-1 text-white" >
+      <div class="home-page-text mt-5 pt-4">
+        <h1 class="text-center">Quality Home Services, on Demand</h1>
+        <p class="text-center">Experienced, hand-picked Professionals to serve you at your doorstep</p>
+        <h4 class="text-center">ADVANCE SEARCH</h4>
+      </div>
+      <div class="home-page-input row mb-5">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 mt-1">
+          <input type="text" class="form-control"  name="searchPlace" id="searchPlace" placeholder="search places...">
+        </div>
+        <div class="col-lg-3 col-md-12 mt-1 ">
+          <select class="form-select bg-white  fs-6 rounded-1" style="width: 100%;">
+          <option selected>Select Cetegory</option>
+          <option value="1">Plumber</option>
+          <option value="2">Carpenter</option>
+          <option value="3">Hotel & Resturant</option>
+          <option value="3">AC service & Repair</option>
+          <option value="3">Architect</option>
+          <option value="3">Beauty Parlor</option>
+          <option value="8">Bike Mechanic</option>
+          <option value="9">Building Material</option>
+          <option value="10">Bus Ticket Booking</option>
+          <option value="11">Car Mechanic</option>
+          <option value="12">CCTV Services </option>
+          <option value="13">Cleaning Services</option>
+          <option value="14">Cooking Services</option>
+          <option value="15">Digital Marketing</option>
+          <option value="16">Electricians</option>
+          <option value="17">Event Planner</option>
+          <option value="18">Graphic Designing</option>
+          <option value="19">Home & Office Repair</option>
+          <option value="20">Hotel Services</option>
+          <option value="21">Laundry</option>
+          <option value="22">Lock Master Services</option>
+          <option value="23">Mariage Hall Booking</option>
+          <option value="24">Paint Services</option>
+          <option value="25">Photography</option>
+          <option value="26">Property Consultant</option>
+          <option value="27">Gents Saloon</option>
+          <option value="28">Sewing Machine Maintenance</option>
+          <option value="29">Software Development</option>
+          <option value="30">Tailor (Suit Maker)</option>
+          <option value="31">Tiles Fitting Services</option>
+          <option value="32">Home  Tutor Service</option>
+          <option value="33">Wedding Planner</option>
+          <option value="34">Welder</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-md-12 mt-1" style="text-align: center;">
+          <button class="btn btn-dark rounded-1 text-white " style="width: 250px;" type="submit">Search</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sec2" id="sec2doc">
+      <h3 class="mt-3" style="text-align: center;">What do you need done?</h3>
+      <p class="mt-1 text-success" style="text-align: center;">We offer variety of professional services with no over head costs for customers</p>
+    </div>
+    <div class="container">
+      <div id="sec2card" class="row gap-4 d-flex justify-content-center ">
+        <div id="card1" class="card col-lg-3 text-center pt-5  shadow p-3 mb-5 bg-body-white rounded">
+            <a href="#" class="text-black text-decoration-none"> 
+              <div id="plumberimg" class=" rounded-circle ms-4">
+                <img src="img/Plumber.png" alt="" width="90px" height="100px" class="mt-4">
+              </div>
+              <div id="plumber" class="mt-4 fw-semibold fs-5">
+                <p>Plumber</p>
+              </div>
+            </a>
+        </div>
+       <div id="card2" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="crimg" class=" rounded-circle ms-4">
+              <img src="img/carpenter.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="carpenter" class="mt-4 fw-semibold fs-5">
+              <p>Carpenter</p>
+            </div>
+          </a>
+        </div>
+       <div id="card3" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="haimg" class=" rounded-circle ms-4">
+              <img src="img/Hotel Booking.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="ha" class="mt-4 fw-semibold fs-5">
+              <p>Hotel & Resturant</p>
+            </div>
+          </a>
+        </div>
+       <div id="card4" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="acimg" class=" rounded-circle ms-4">
+              <img src="img/AC Service & Repair.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="ac" class="mt-4 fw-semibold fs-5">
+              <p>AC Service & Repair.png</p>
+            </div>
+          </a>
+        </div>
+        <div id="card5" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+            <a href="#" class="text-black text-decoration-none"> 
+              <div id="artimg" class=" rounded-circle ms-4">
+                <img src="img/" alt="" width="90px" height="100px" class="mt-4">
+              </div>
+              <div id="art" class="mt-4 fw-semibold fs-5">
+                <p>Architect</p>
+              </div>
+            </a>
+        </div>
+       <div id="card6" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="beautyimg" class=" rounded-circle ms-4">
+              <img src="img/Beauty Parlor.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="beauty" class="mt-4 fw-semibold fs-5">
+              <p>Beauty parlor</p>
+            </div>
+          </a>
+        </div>
+       <div id="card7" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="bikeimg" class=" rounded-circle ms-4">
+              <img src="img/Bike Mechanic.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="bike" class="mt-4 fw-semibold fs-5">
+              <p>Bike Mechanic</p>
+            </div>
+          </a>
+        </div>
+       <div id="card8" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="buildingimg" class=" rounded-circle ms-4">
+              <img src="img/Building Material.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="building" class="mt-4 fw-semibold fs-5">
+              <p>Building Material</p>
+            </div>
+          </a>
+        </div>
+        <div id="card9" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="busimg" class=" rounded-circle ms-4">
+              <img src="img/Bus Ticket Booking.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="bus" class="mt-4 fw-semibold fs-5">
+              <p>Bus Ticket Booking</p>
+            </div>
+          </a>
+        </div> 
+        <div id="card10" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+            <div id="carimg" class=" rounded-circle ms-4">
+              <img src="img/Car Mechanic.png" alt="" width="90px" height="100px" class="mt-4">
+            </div>
+            <div id="car" class="mt-4 fw-semibold fs-5">
+              <p>Car Mechanic</p>
+            </div>
+          </a>
+        </div>
+        <div id="card11" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+        <div id="cctvimg" class=" rounded-circle ms-4">
+          <img src="img/CCTV Camera.png" alt="" width="90px" height="100px" class="mt-4">
+        </div>
+        <div id="cctv" class="mt-4 fw-semibold fs-5">
+          <p>CCTV Camera</p>
+        </div>
+        </a>
+        </div>
+        <div id="card12" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+        <div id="cleaningimg" class=" rounded-circle ms-4">
+          <img src="img/Cleaning Services.png" alt="" width="90px" height="100px" class="mt-4">
+        </div>
+        <div id="cleaning" class="mt-4 fw-semibold fs-5">
+          <p>Cleaning Services</p>
+        </div>
+        </a>
+        </div>
+        <div id="card13" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+          <div id="Cookingimg" class=" rounded-circle ms-4">
+            <img src="img/Cooking Services.png" alt="" width="90px" height="100px" class="mt-4">
+          </div>
+          <div id="coocking" class="mt-4 fw-semibold fs-5">
+            <p>coocking Services</p>
+          </div>
+        </a>
+        </div>
+        <div id="card14" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+        <div id="digitelimg" class=" rounded-circle ms-4">
+          <img src="img/Digital Marketing.png" alt="" width="90px" height="100px" class="mt-4">
+        </div>
+        <div id="digitel" class="mt-4 fw-semibold fs-5">
+          <p>Digital Marketing</p>
+        </div>
+        </a>
+        </div>
+        <div id="card15" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+        <div id="electronicimg" class=" rounded-circle ms-4">
+          <img src="img/Electricians.png" alt="" width="90px" height="100px" class="mt-4">
+        </div>
+        <div id="electronic" class="mt-4 fw-semibold fs-5">
+          <p>Electricians</p>
+        </div>
+        </a>
+        </div>
+        <div id="card16" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+        <a href="#" class="text-black text-decoration-none"> 
+        <div id="eventimg" class=" rounded-circle ms-4">
+          <img src="img/Event Planner.png" alt="" width="90px" height="100px" class="mt-4">
+        </div>
+        <div id="event" class="mt-4 fw-semibold fs-5">
+          <p>Event Planner</p>
+        </div>
+        </a>
+        </div>
+        <div id="card17" class="card col-lg-3 text-center pt-5 shadow p-3 mb-5 bg-body-white rounded  ">
+          <a href="#" class="text-black text-decoration-none"> 
+          <div id="welderimg" class=" rounded-circle ms-4">
+            <img src="img/" alt="" width="90px" height="100px" class="mt-4">
+          </div>
+          <div id="welder" class="mt-4 fw-semibold fs-5">
+            <p>Welder</p>
+          </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sec3whychooseus">
+      <img src="img/whychooseus.jpg" width="100%" alt="">
+    </div>
+    <div class="sec4secondaryfooterimg ">
+      <img src="img/secondary-footer-image.jpg" width="100%" alt="">
+    </div>
+    
+    <div class="sec5about row bg-black ps-5 pe-5">
+    <div class="col-lg-3 mt-5 pb-5">
+      <ul class="list-unstyled ">
+        <li class="text-black fs-3 fw-semibold text-white">COMPANY</li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">About</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Contact Us</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 mt-5 pb-5">
+      <ul class="list-unstyled ">
+        <li class="text-black fs-3 fw-semibold text-white">SERVING IN</li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Karachi</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Lahore</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Hyderabad</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 mt-5 pb-5" >
+      <ul class="list-unstyled ">
+        <li class="text-black fs-3 fw-semibold text-white">POLICIES</li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Terms And Conditions (Buyer)</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Terms And Conditions (Seller)</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">FAQ</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Privacy Policy</a></li>
+        <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Refund Policy</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 mt-5 pb-5">
+      <p class="fs-3 fw-semibold text-white">DOWNLOAD OUR APP</p>
+      <p class="fs-6 fw-semibold text-white">Secure & Coast Effective platform providing relaible handyman service at your doorstep!</p>
+        
+    </div>
+
+    
+
+    </div>
+    
+
+    <div class="row footer pt-4 pb-3  bg-black position-relative" style="border-top: 1px solid #848484;"  >
+      <div class="col-lg-6" >
+        <span class="ps-4" style="color: #848484;">© 2024 by Find Quick Service. All Rights Reserved.</span>
+      </div>
+      <div class="col-lg-6 icon d-flex justify-content-end gap-2">
+        <a href="">
+          <i class="fa-brands fa-facebook-f text-white fs-4 fw-lighter"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter text-white fs-4 fw-lighter" style="color: #ffffff;"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-instagram text-white fs-4 fw-lighter" style="color: #ffffff;"></i>
+        </a>
+
+
+      </div>
+    </div>
+
+
+
+
+
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

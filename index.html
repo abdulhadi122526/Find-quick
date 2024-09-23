@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-white rounded-1">
+      <div class="container-fluid bg-white z-1 mt-5 pt-3  border border-1 position-fixed ">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo" class="d-inline-block align-text-top" width="190vw">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse position-relative bg-white" id="navbarNav">
+          <ul class="navbar-nav position-absolute  ps-5 bg-white">
+            <li class="nav-item" id="navhome" onclick="home()">
+              <a class="nav-link active text-black fw-semibold" id="namehomelink" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">Pricing</a>
+            </li>
+            <li class="nav-item" id="">
+              <a class="nav-link text-black fw-semibold" href="pages/sign up/index.html">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>  
+  
+  
+      
+  <div class="row">
+      <div class="col-lg-12 text-center mb-2" style="color:#1b9049;">
+          <p class="fs-2">Login Your Account</p>
+      </div>
+      <div class="col-lg-12 d-flex justify-content-center">
+          <div class="col-lg-4 m-5 mt-1">
+              <form action="" class="form form-control p-5" id="loginForm">
+                <input type="email" name="email" id="email" placeholder="Email address or Mobile" class="form-control mb-3  w-100 p-1">
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="true" class="form-control mb-3 w-100 p-1">
+                
+                <div class="d-flex justify-content-end me-1 mb-3 ">
+                    <a href="" class="forgotpass text-black">Forgot Password?</a>
+                </div>
+                
+                <div class="button mb-4" id="btn-login">
+                  
+                    <button class="btn btn-success w-100">Login</button>
+                  
+                </div>
+                <hr>
+                <div class="creatAcc text-center mt-4">
+                    <p class="">Dont have account? <span><a href="pages/sign up/index.html" class="text-success">Sign up here</a></span></p>
+                    
+
+                </div>
+              </form>
+
+          
+          </div>
+      </div>
+  </div>   
+  
+  <div class="chooseus">
+      <img src="img/whychooseus.jpg" alt="whychooseus" width="100%" >
+  </div>
+  <div class="secondary-footer-image">
+      <img src="img/secondary-footer-image.jpg" alt="whychooseus" width="100%" >
+  </div>
+  <div class="sec5about row bg-black ps-5 pe-5">
+      <div class="col-lg-3 mt-5 pb-5">
+        <ul class="list-unstyled ">
+          <li class="text-black fs-3 fw-semibold text-white">COMPANY</li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">About</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Contact Us</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mt-5 pb-5">
+        <ul class="list-unstyled ">
+          <li class="text-black fs-3 fw-semibold text-white">SERVING IN</li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Karachi</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Lahore</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Hyderabad</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mt-5 pb-5" >
+        <ul class="list-unstyled ">
+          <li class="text-black fs-3 fw-semibold text-white">POLICIES</li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Terms And Conditions (Buyer)</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Terms And Conditions (Seller)</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">FAQ</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Privacy Policy</a></li>
+          <li><a href="" class="text-decoration-none  fs-6 fw-semibold text-white">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mt-5 pb-5">
+        <p class="fs-3 fw-semibold text-white">DOWNLOAD OUR APP</p>
+        <p class="fs-6 fw-semibold text-white">Secure & Coast Effective platform providing relaible handyman service at your doorstep!</p>
+          
+      </div>
+  </div>
+
+  <div class="row footer pt-4 pb-3  bg-black position-relative" style="border-top: 1px solid #848484;"  >
+    <div class="col-lg-6" >
+      <span class="ps-4" style="color: #848484;">© 2024 by Find Quick Service. All Rights Reserved.</span>
+    </div>
+    <div class="col-lg-6 icon d-flex justify-content-end gap-2">
+      <a href="">
+        <i class="fa-brands fa-facebook-f text-white fs-4 fw-lighter"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-twitter text-white fs-4 fw-lighter" style="color: #ffffff;"></i>
+      </a>
+      <a href="" class="me-4">
+        <i class="fa-brands fa-instagram text-white fs-4 fw-lighter" style="color: #ffffff;"></i>
+      </a>
+
+
+    </div>
+  </div>
+    
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar-nav{
+    right: 30px;
+    gap: 10px;
+}
+a{
+    text-decoration: none !important;
+    
+}
+.creatAcc{
+    font-size: small;
+}
+.row{
+    margin-top: 100px !important;    
+}
+li{
+    padding-bottom:11.5px ;
+}
+a{
+    text-decoration: none !important;
+}
+.sec5about , .footer{
+    margin-top: 0 !important;
+}

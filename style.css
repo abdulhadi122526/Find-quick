@@ -31,7 +31,8 @@ a{
 .sec5about , .footer{
     margin-top: 0 !important;
 }
-#togglenav{
+
+/* #togglenav{
     margin-top:7%;
     display: none;
-}
+} */

@@ -22,8 +22,10 @@ btnLogIn.addEventListener('click', (e)=>{
     
 })
 
-    
+$(".navbar-toggler").click(function(){
+    $("#togglenav").toggle(1000);
+  });
 
 
 
-// pages/home-page/index.html
+

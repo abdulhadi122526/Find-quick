@@ -3,6 +3,12 @@ let password = document.querySelector('#password')
 let rePass = document.querySelector('#retypepassword')
 let signUp = document.querySelector('#btn-signup')
 
+function home(){       
+    if(!email.value || !password.value){
+        alert('please sign up or log in your account')
+    }
+}
+
 signUp.addEventListener('click', (e)=>{
     e.preventDefault()
     let emailValue = email.value
@@ -26,6 +32,9 @@ signUp.addEventListener('click', (e)=>{
 })
 
 
+$(".navbar-toggler").click(function(){
+    $("#togglenav").toggle(1000);
+  });
 
 
 
